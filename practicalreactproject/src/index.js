@@ -1,6 +1,10 @@
-import react from 'react';
+import React from 'react';
 import Reactdom from 'react-dom';
+import App from './App';
 import './index.css'
+
+
+
 Reactdom.render(<div>
   <ul>
     <li>Mobile</li>
@@ -31,3 +35,5 @@ Reactdom.render(<div>
   </table>
 </div>, document.getElementById('root')
 );
+
+Reactdom.render(<App></App>, document.getElementById('root'));
