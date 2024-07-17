@@ -3,7 +3,7 @@ import React from 'react';
 function Footer(){
     return(
         <>
-            <h1>This is footer page</h1>
+            <h1>website is developed by Suraj kedar</h1>
         </>
     )
 }
