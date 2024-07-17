@@ -1,5 +1,6 @@
 import React from 'react';
 import Reactdom from 'react-dom';
+import App from './App'
 import './index.css'
 var name = 'SURAJ';
 var age = 22;
@@ -15,3 +16,6 @@ Reactdom.render(<div><h1>this is index page</h1>
                 <h2>Student date: {d}</h2>
                 <h2>Student time: {t}</h2>
                 </div>, document.getElementById('root'));
+
+
+Reactdom.render(<App></App>, document.getElementById('root'));
