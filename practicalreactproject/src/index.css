@@ -1,10 +1,10 @@
-ul{
+ol{
   color:red;
   background-color: antiquewhite;
   font-size: 40px;
   font-style: italic;
 }
-ol{
+ul{
   color:blue;
   background-color: antiquewhite;
   font-size: 40px;
