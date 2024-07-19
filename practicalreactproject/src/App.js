@@ -6,6 +6,8 @@ import Student from './Student'
 import Employee from './Employee'
 import Day from './Day'
 import City from './City'
+import A from './A'
+import EmployeeArrayTable from './EmployeeArrayTable';
 function App(){
     return(
         <>
@@ -15,6 +17,8 @@ function App(){
         <Employee></Employee>
         <Day></Day>
         <City></City>
+        <A></A>
+        <EmployeeArrayTable></EmployeeArrayTable>
         <Footer></Footer>
         </>
     )
