@@ -1,7 +1,7 @@
 import React from 'react';
 import Reactdom from 'react-dom';
 import App from './App'
-import './index.css'
+//import './index.css'
 var name = 'SURAJ';
 var age = 22;
 var d = new Date().toLocaleDateString();
