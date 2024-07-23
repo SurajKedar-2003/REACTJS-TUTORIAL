@@ -8,6 +8,7 @@ import Day from './Day'
 import City from './City'
 import A from './A'
 import EmployeeArrayTable from './EmployeeArrayTable';
+import EmployeeObjectRender from './EmployeeObjectRender';
 function App(){
     return(
         <>
@@ -19,6 +20,7 @@ function App(){
         <City></City>
         <A></A>
         <EmployeeArrayTable></EmployeeArrayTable>
+        <EmployeeObjectRender></EmployeeObjectRender>
         <Footer></Footer>
         </>
     )
