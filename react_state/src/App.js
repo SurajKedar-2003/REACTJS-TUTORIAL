@@ -3,6 +3,7 @@ import React from 'react'
 import TextUtility from './TextUtility'
 import DigitalClock from './DigitalClock'
 import Calculator from './Calculator'
+import UseEffectExample from './UseEffectExample'
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
      <TextUtility></TextUtility>
      <DigitalClock></DigitalClock>
      <Calculator></Calculator>
+     <UseEffectExample></UseEffectExample>
     </>
    
   )
