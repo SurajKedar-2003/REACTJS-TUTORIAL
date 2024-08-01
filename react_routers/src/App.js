@@ -10,6 +10,7 @@ import Blog from "./routes/Blog";
 import Clock from "./routes/Clock";
 import Calculator from "./routes/Calculator";
 import Navbar from "./routes/Navbar";
+import UserDetails from "./routes/UserDetails";
 function App() {
   return (
     <>
@@ -32,9 +33,9 @@ function App() {
         <Route path="*" element={<PageNotfound></PageNotfound>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/user" element={<User></User>}></Route>
-          {/*
-        <Route path="/user/:id" element={<User></User>}></Route>
-        
+          
+        <Route path="/user/:id" element={<UserDetails></UserDetails>}></Route>
+        {/*
         <Route path="/clock" element= {<Clock></Clock>}></Route>
         <Route path="/calculator" element={<Calculator></Calculator>}></Route> */}
       </Routes>
