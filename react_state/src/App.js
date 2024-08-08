@@ -4,6 +4,7 @@ import TextUtility from './TextUtility'
 import DigitalClock from './DigitalClock'
 import Calculator from './Calculator'
 import UseEffectExample from './UseEffectExample'
+import UseRefComp from './UseRefComp'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
      <DigitalClock></DigitalClock>
      <Calculator></Calculator>
      <UseEffectExample></UseEffectExample>
+     <UseRefComp></UseRefComp>
     </>
    
   )
