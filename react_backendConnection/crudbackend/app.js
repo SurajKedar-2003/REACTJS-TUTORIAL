@@ -1,9 +1,14 @@
-const express = require('express')
-const mongoose = require('mongoose')
-const bodyParser = require('body-parser')
+// const express = require('express')
+import express from 'express'
+// const mongoose = require('mongoose')
+import mongoose from 'mongoose'
+// const bodyParser = require('body-parser')
+import bodyParser from 'body-parser'
 const app = express();
-const EmployeeModel = require('./employee')
-const cors = require('cors');
+// const EmployeeModel = require('./employee')
+import EmployeeModel from './employee.js'
+// const cors = require('cors');
+import cors from 'cors'
 app.use(cors());
 
 app.use(bodyParser.urlencoded({extended:true}));

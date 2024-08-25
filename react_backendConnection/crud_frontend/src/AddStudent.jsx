@@ -23,7 +23,6 @@ function AddStudent() {
     function submitHandler(e){
         e.preventDefault();
         console.log(txt);
-        setTxt(txt)
         axios.post('http://localhost:3000/create', txt);
         navigate('/');
         
